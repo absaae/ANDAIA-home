@@ -1,0 +1,98 @@
+.header-container{ 
+    background: rgb(245,245,246);
+    background: linear-gradient(108deg, rgba(245,245,246,0.9771929824561404) 16%, rgba(148,187,233,1) 44%, rgba(238,174,202,1) 100%);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Separa los elementos a cada extremo */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding: 20px; /* Espacio interno para el header */
+}
+
+.page-name {
+    font-size: 24px; 
+}
+
+.regresar-button-container {
+    background-color: transparent;
+}
+
+/* Configuración de botones */
+.regresar-button, .crearCuenta-button {
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent; /* Fondo transparente para los botones */
+    color: black;
+    position: relative; /* Para posicionar el pseudo-elemento de forma relativa */
+}
+
+/* Efecto de línea negra en la parte inferior al pasar el cursor */
+.regresar-button:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0; /* Posición en la parte inferior del botón */
+    left: 50%; /* Comienza desde el centro del botón */
+    height: 2px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    transform: translateX(-50%); /* Centra la línea */
+    transition: width 0.3s ease-out; /* Transición para animar la línea */
+    width: 100%; /* Ancho final de la línea (se expande de centro a orillas) */
+}
+.crearCuenta-button:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Posición en la parte inferior del botón */
+    left: 50%; /* Comienza desde el centro del botón */
+    height: 2px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    transform: translateX(-50%); /* Centra la línea */
+    transition: width 0.3s ease-out; /* Transición para animar la línea */
+    width: 50%; /* Ancho final de la línea (se expande de centro a orillas) */
+}
+
+/* Estado inicial (sin hover) */
+.regresar-button::after,
+.crearCuenta-button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Comienza desde el centro del botón */
+    width: 0; /* Ancho inicial es cero */
+    height: 2px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    transform: translateX(-50%); /* Centra la línea */
+    transition: width 0.3s ease-out; /* Transición para animar la línea */
+}
+
+/* Estilos para centrar el formulario */
+.crearCuenta-container {
+    display: flex;
+    flex-direction: column; /* Para organizar los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente si el contenedor tiene altura suficiente */
+    margin-top: 25px;
+}
+
+/* Estilos para los campos de formulario */
+.formulario {
+    display: flex;
+    flex-direction: column; /* Para organizar los elementos verticalmente */
+    margin-bottom: 15px; /* Añade espacio entre los campos */
+    width: 300px; /* Puedes ajustar el ancho según tus preferencias */
+}
+
+/* Alinear las etiquetas de los campos a la izquierda */
+.formulario label {
+    text-align: left; /* Alinea el texto de la etiqueta a la izquierda */
+    margin-bottom: 5px; /* Añade espacio entre la etiqueta y el campo */
+}
+
+/* Centrar el botón de iniciar sesión */
+.formulario:last-child {
+    text-align: center; /* Centra el botón en el contenedor */
+}
+

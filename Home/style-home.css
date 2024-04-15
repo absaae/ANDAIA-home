@@ -1,0 +1,92 @@
+/* Establece el fondo de la página */
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 0; /* Elimina el margen predeterminado del body */
+    
+}
+
+/* Estilo para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.page-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* Estilo para el cuerpo centrado */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Estilo para el título centrado */
+.center-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Configuración de contenedor de botones */
+.buttons-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 80px; /* Espacio entre los botones */
+}
+
+
+
+/* Configuración de botones */
+.create-account-button, .explore-button, .login-button {
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent; /* Fondo transparente para los botones */
+    color: black;
+    position: relative; /* Para posicionar el pseudo-elemento de forma relativa */
+}
+
+
+
+/* Efecto de línea negra en la parte inferior al pasar el cursor */
+.create-account-button:hover::after,
+.explore-button:hover::after,
+.login-button:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Posición en la parte inferior del botón */
+    left: 50%; /* Comienza desde el centro del botón */
+    height: 2px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    transform: translateX(-50%); /* Centra la línea */
+    transition: width 0.3s ease-out; /* Transición para animar la línea */
+    width: 100%; /* Ancho final de la línea (se expande de centro a orillas) */
+}
+
+/* Estado inicial (sin hover) */
+.create-account-button::after,
+.explore-button::after,
+.login-button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Comienza desde el centro del botón */
+    width: 0; /* Ancho inicial es cero */
+    height: 2px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    transform: translateX(-50%); /* Centra la línea */
+    transition: width 0.3s ease-out; /* Transición para animar la línea */
+}
+
+
