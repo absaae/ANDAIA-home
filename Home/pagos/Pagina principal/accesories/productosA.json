@@ -1,0 +1,26 @@
+[
+    {
+        "id": 5,
+        "name": " Cinturon Diesel rojo. ",
+        "price": 200,
+        "image": "../../images/accessories/5.1 cinturones/5.1.1.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Gorro negro con cadena ",
+        "price": 100,
+        "image": "../../images/accessories/5.6 gorros/5.6.1.jpeg"
+    },
+    {
+        "id": 7,
+        "name": " Bolsa roja de cuero en forma de corazón ",
+        "price": 400,
+        "image": "../../images/accessories/5.2 bolsas/5.2.1.jpeg"
+    },
+    {
+        "id": 8,
+        "name": " Lentes de sol con armazón cafe",
+        "price": 100,
+        "image": "../../images/accessories/5.8 lentes/5.8.1.jpeg"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 13,
+        "name": " Mano pulsera ",
+        "price": 500,
+        "image": "../../images/jewerly/4.2 pulseras/4.2.1.jpeg"
+    },
+    {
+        "id": 14,
+        "name": " Chunky pearl necklace ",
+        "price": 500,
+        "image": "../../images/jewerly/4.1 collares/4.1.1.jpeg"
+    },
+    {
+        "id": 15,
+        "name": " Signet ring",
+        "price": 500,
+        "image": "../../images/jewerly/4.3 anillos/4.3.1.jpeg"
+    },
+    {
+        "id": 16,
+        "name": " Sleek Silver  ",
+        "price": 500,
+        "image": "../../images/jewerly/4.1 collares/4.1.2.jpeg"
+    }
+]

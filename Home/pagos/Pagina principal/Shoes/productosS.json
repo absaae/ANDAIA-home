@@ -1,0 +1,26 @@
+[
+    {
+        "id": 21,
+        "name": " Tacones blancos con punta negra ",
+        "price": 800,
+        "image": "../../images/shoes/3.6 tacones/3.6.1.jpeg"
+    },
+    {
+        "id": 22,
+        "name": " Sandalias negras con punta y talón abiertos ",
+        "price": 500,
+        "image": "../../images/shoes/3.3 sandalias/3.3.1.jpeg"
+    },
+    {
+        "id": 23,
+        "name": " Tennis blancos con verde ",
+        "price": 600,
+        "image": "../../images/shoes/3.4 tennis/3.4.1.jpeg"
+    },
+    {
+        "id": 24,
+        "name": " Botas de tacón rojas ",
+        "price": 700,
+        "image": "../../images/shoes/3.2 botas/3.2.1.jpeg"
+    }
+]

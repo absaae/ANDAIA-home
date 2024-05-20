@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANDAIA</title>
+    <link rel="icon" href="../images/logoAndaia.png">
+    <link rel="stylesheet" type="text/css" href="style-pagos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="checkoutLayout">
+            <div class="returnCart">
+                <a href="index-paginaPrin.html"> Seguir comprando </a>
+                <h1> Productos en el carrito </h1>
+                <div class="list">
+                    <div class="item">
+                        <img src="../images/tops/1.5 sueteres/1.5.1.jpeg">
+                        <div class="info">
+                            <div class="name"> Producto 1</div>
+                            <div class="price"> $300 </div>
+                        </div>
+                        <div class="quantity">1</div>
+                        <div class="returnPrice">$600</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <h1>Pagar</h1>
+                <div class="form">
+                    <div class="group">
+                        <label for="">Nombre completo</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="group">
+                        <label for="">Número de celular</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="group">
+                        <label for="">Dirección</label>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="group">
+                        <label for="">Estado</label>
+                        <select name="" id="">
+                            <option value="">Escoja una opción</option>
+                            <option value="cdmx">CDMX</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="">Alcaldía</label>
+                        <select name="" id="">
+                            <option value="">Escoja una opción</option>
+                            <option value="cdmx">Cuauhtémoc</option>
+                            <option value="cdmx">Venustiano Carranza</option>
+                            <option value="cdmx">Coyoacán</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="return">
+                    <div class="row">
+                        <div>Cantidad total</div>
+                        <div class="totalQuantity">2</div>
+                    </div>
+                    <div class="row">
+                        <div>Total a pagar</div>
+                        <div class="totalPrice">$600</div>
+                    </div>
+                </div>
+
+                <div>
+                    
+                </div>
+                <div class="explore-button-container">
+                    <button class="buttonCheckout" onclick="window.location.href='https://www.paypal.com/ncp/payment/ZCUQ7LYTNZRUS'">Pagar</button>
+                </div>
+                
+                <!--
+                <button class="buttonCheckout">
+                    Pagar
+                </button>
+                -->
+            </div>
+
+        </div>
+    </div>
+
+    <script src="checkout.js"></script>
+    
+</body>
+</html>
