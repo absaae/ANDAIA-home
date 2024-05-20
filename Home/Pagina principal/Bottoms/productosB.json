@@ -1,0 +1,26 @@
+[
+    {
+        "id": 9,
+        "name": "Pantalón azul marino acampanado",
+        "price": 400,
+        "image": "../../images/bottoms/2.1 pantalones/2.1.1.jpeg"
+    },
+    {
+        "id": 10,
+        "name": " Minty Stripe Shorts ",
+        "price": 200,
+        "image": "../../images/bottoms/2.2 shorts/2.2.1.jpeg"
+    },
+    {
+        "id": 11,
+        "name": " Falda beige larga ",
+        "price": 200,
+        "image": "../../images/bottoms/2.3 faldas/2.3.1.jpeg"
+    },
+    {
+        "id": 12,
+        "name": " Vestido blanco cuello-V plisado a la cintura ",
+        "price": 300,
+        "image": "../../images/bottoms/2.4 vestidos/2.4.1.jpeg"
+    }
+]

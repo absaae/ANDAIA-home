@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Sueter de lana con diseño",
+        "price": 300,
+        "image": "../../images/tops/1.5 sueteres/1.5.1.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Camisa gris con espalda descubierta",
+        "price": 100,
+        "image": "../../images/tops/1.1 camisas/1.1.1.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Sudadera beige con cierrers",
+        "price": 300,
+        "image": "../../images/tops/1.4 sudaderas/1.4.1.jpeg"
+    },
+    {
+        "id": 25,
+        "name": " Botas de tacón rojas ",
+        "price": 700,
+        "image": "../../images/Tops/1.1 camisas/1.1.3.jpeg"
+    }
+]
